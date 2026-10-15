@@ -35,6 +35,27 @@
 python "$CODEX_HOME/skills/.system/skill-creator/scripts/quick_validate.py" skills/<skill-name>
 ```
 
+## 推送到 GitHub（未执行）
+
+本地仓库已 `git init` 并提交，分支 `master`。**尚未创建远程仓库、尚未推送。**
+
+首次推送需要一次 GitHub 登录（本机没有任何 git 凭据）：
+
+```powershell
+cd F:\_codex技能导出_20261015
+.\一键推送到GitHub.ps1 -Repo tianweiping-visual-skills
+```
+
+脚本会打开 GitHub 新建仓库页面，你建好仓库后回车，Git Credential Manager
+会弹出登录窗口，登录一次即可。
+
+> 注意：GitHub 的 `create_or_update_file` / `push_files` 接口只接受文本 `content`
+> （官方接口原文写明「Do not base64-encode it」），**二进制图片会被破坏**，
+> 所以 26 张案例图（8.49 MB）只能走 git 推送，不能走 API。
+> 这也是没有把仓库拆成「纯文本快照」的原因。
+
 ## 未声称完成
 
-没有在 Codex 中实际运行过这些技能，未验证其实际行为或视觉输出质量。
+- 没有在 Codex 中实际运行过这些技能，未验证其在本机的实际行为或视觉输出质量；
+- 没有验证各技能 `scripts/` 下脚本在 Codex 环境的可执行性；
+- 没有创建 GitHub 远程仓库，没有推送（本地提交已完成）。
