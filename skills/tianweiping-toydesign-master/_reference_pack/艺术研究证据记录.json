@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-29",
+  "source_images_not_distributed": true,
+  "visual_checks": [
+    {
+      "file_label": "wu-double-swallows.jpg",
+      "source": "https://www.ad.tsinghua.edu.cn/info/1061/28987.htm",
+      "inspection": "artwork viewed",
+      "sha256": "913499089dacb636b976f681559af9dcebbbbe6ab505e32103e4d0feab8f586d"
+    },
+    {
+      "file_label": "disney-thumbnails.jpg",
+      "source": "https://www.disneyanimation.com/process/story/",
+      "inspection": "process diagram viewed",
+      "sha256": "a91a62fa194339e6a22d925f3a1a03d9d79f60de97f7cbc1292ef867de431519"
+    },
+    {
+      "file_label": "disney-refined.jpg",
+      "source": "https://www.disneyanimation.com/process/story/",
+      "inspection": "storyboard viewed",
+      "sha256": "59b8b0f49295cae8874042f4851c73754063ebd3cfb9a06d60907fb6be9fd30a"
+    },
+    {
+      "file_label": "feng-childhood.png",
+      "source": "https://lvshunmuseum.cn/mobile/service_Detail.aspx?ID=186",
+      "inspection": "catalogue only, not an artwork",
+      "sha256": "b8d39779d1b8ccfdb3210fc349c09356aeabcb3832eb7bbd03d8b2ae44e5a489"
+    }
+  ]
+}
