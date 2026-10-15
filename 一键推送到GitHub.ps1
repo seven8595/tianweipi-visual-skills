@@ -84,8 +84,7 @@ if (-not $exists) {
     $newUrl = "https://github.com/new?name=$Repo"
     Write-Host "  URL: $newUrl"
     Start-Process $newUrl
-    Write-Host ""
-    Read-Host 'Press Enter after the repository is created. GitHub login may pop up on first push.'
+    Fail 'GitHub repository does not exist yet. Create it in the opened browser page, then rerun this script.'
 }
 
 & git remote remove origin 2>$null
