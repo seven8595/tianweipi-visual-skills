@@ -1,0 +1,59 @@
+{
+  "STYLE_ID": "SANGUO_98_REALISTIC_001",
+  "STYLE_NAME": "98版三国电视剧真人剧照质感",
+  "SOURCE": "SANGUO_DRAMA_PROJECT_2026",
+  "CONFIDENCE": "CONFIRMED_BY_USER",
+  "VERSION": "V001",
+  "PROJECT": "三国打工人（红果竖屏漫剧）",
+
+  "CORE_FORMULA": "Screenshot from 1994 TV drama Three Kingdoms + photorealistic live-action still + real actor face + detailed skin texture with pores and wrinkles + grainy film texture + looks like a real TV drama screenshot not AI generated",
+
+  "COLOR_DNA": {
+    "primary": "EARTHY_NATURAL（土色自然系，阴天压饱和）",
+    "accent": ["FADED_GREEN（关羽旧绿袍）", "RUST_BLACK（张飞旧黑甲）", "CREAM_WHITE（刘备米白汉服）"],
+    "supporting": ["SUNBURN_RED（晒红肤色）", "WEATHERED_WOOD", "DUST_GREY"],
+    "rule": "LOW_SATURATION + NATURAL_OVERCAST_LIGHT + WORN_FABRIC",
+    "background": "古代市集木建筑 / 桃园暖金夕阳"
+  },
+
+  "CHARACTER_DNA": {
+    "type": "中年历史人物，真人演员质感",
+    "proportions": "真人写实比例",
+    "face": "真实皮肤纹理，毛孔/皱纹/晒红",
+    "hair": "黑色束发/长髯/络腮胡",
+    "costume": "汉服+铁甲，磨损做旧",
+    "symbols": "刘备玉冠/关羽绿头巾+长髯/张飞豹头环眼",
+    "iconic_silhouette": true
+  },
+
+  "COMPOSITION_DNA": {
+    "orientation": "PORTRAIT_9:16",
+    "shot_size": ["MCC", "CU", "FULL_BODY"],
+    "character_ratio": "50-80%",
+    "principles": ["CINEMATIC_STILL", "SHALLOW_DOF", "NATURAL_LIGHT", "HISTORICAL_SET"]
+  },
+
+  "VISUAL_HIERARCHY": ["FACE", "SKIN_TEXTURE", "BEARD", "ARMOR_WEAR", "COSTUME_FADE", "BACKGROUND"],
+
+  "LIGHT_DNA": {
+    "setup": "NATURAL_OVERCAST / GOLDEN_HOUR / CAMPFIRE_NIGHT",
+    "rules": ["NO_STUDIO_GLAMOUR", "NO_HIGH_SPECULAR", "WEATHERED_MATERIAL", "FILM_GRAIN"]
+  },
+
+  "STYLE_MIX": {
+    "PRIMARY": "LIVE_ACTION_HISTORICAL_DRAMA",
+    "SECONDARY": "1994_CCTV_Three_Kingdoms",
+    "ACCENT": "PHOTOREAL_FILM_STILL",
+    "render": "PHOTOGRAPHY × FILM_GRAIN"
+  },
+
+  "KNOWN_FAILURES": [
+    "脸太光滑→被否（太假）",
+    "铠甲太新→被否（太假）",
+    "颜色太鲜艳→被否（太假）",
+    "3D/Pixar/UE5/素描路线全部被否",
+    "关键帧关羽默认版→用户反馈'太假了'，需加毛孔/锈迹/褪色/胶片颗粒修正"
+  ],
+
+  "BEST_USE_CASES": ["三国/古风/历史真人漫剧", "红果/抖音竖屏短剧", "历史人物人设图", "历史场景关键帧"]
+}

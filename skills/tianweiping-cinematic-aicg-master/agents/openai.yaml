@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平电影动画AIGC大师"
+  short_description: "田伟平电影动画AIGC大师（整合版）"
+  default_prompt: "使用 $tianweiping-cinematic-aicg-master，做电影感画面、动画电影或漫剧视觉。"

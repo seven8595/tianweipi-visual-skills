@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "project_id": "example-original-character-image",
+  "kind": "image",
+  "width": 1024,
+  "height": 1024,
+  "text_required": false,
+  "audio_required": false,
+  "characters": [
+    {
+      "id": "C001",
+      "anchors": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ]
+    }
+  ],
+  "assets": [],
+  "items": [
+    {
+      "id": "I001",
+      "characters": [
+        "C001"
+      ],
+      "references": [],
+      "keep": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ],
+      "prompt": "绘本插画：原创圆耳角色戴蓝围巾，米白毛色，坐在窗边看一本书。主体在画面左侧，右侧留白，右上方柔和光线，纸张纹理，画面无文字。",
+      "output_asset_id": null,
+      "reviews": [],
+      "scene": {
+        "subject": "原创圆耳角色，米白毛色，戴蓝围巾",
+        "action": "坐在窗边看书",
+        "environment": "安静房间的窗边",
+        "composition": "主体在画面左侧，右侧留白",
+        "lighting": "右上方柔光",
+        "style": "绘本插画，纸张纹理，画面无文字"
+      },
+      "reference_roles": [],
+      "generation": {
+        "mode": "text_to_image",
+        "parameters": {}
+      },
+      "repair_history": []
+    }
+  ],
+  "budget": {
+    "currency": "CNY",
+    "limit": "10.00",
+    "spent": "0.00",
+    "planned_new_calls": 1,
+    "max_new_calls": 2,
+    "estimated_next_cost": null
+  },
+  "capabilities": {
+    "entry": "本次实际入口待填写",
+    "model": "待核验",
+    "status": "unknown",
+    "modes": [],
+    "parameters": {}
+  }
+}

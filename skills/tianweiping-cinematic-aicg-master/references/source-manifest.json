@@ -1,0 +1,24 @@
+{
+  "skill": "tianweiping-cinematic-aicg-master",
+  "display_name_cn": "田伟平电影动画aicg大师",
+  "source": "doubao-user-skills",
+  "source_root": "C:/Users/seven/AppData/Local/Doubao/User Data/Default/.doubao/agent_mode/workspace/.user_skills",
+  "source_dir": "田伟平电影动画aicg大师",
+  "source_version": "3.0.0",
+  "layer": "分域 · 电影动画",
+  "migrated_at": "2026-10-15",
+  "source_body_sha256_16": "079a817ac2d46955",
+  "migrated_body_sha256_16": "079a817ac2d46955",
+  "body_byte_identical": true,
+  "source_files": 47,
+  "source_bytes": 1817803,
+  "migrated_files": 48,
+  "migrated_bytes": 1817632,
+  "changes": [
+    "frontmatter.name: 中文目录名 -> ASCII slug（Codex 校验器要求 ^[a-z0-9-]+$）",
+    "frontmatter: 原 slug/library/layer/version 移入 metadata（校验器仅允许 name/description/license/allowed-tools/metadata）",
+    "frontmatter.description: 压到 1024 字符内；尖括号 > 改为全角；引号改为「」",
+    "新增 agents/openai.yaml（界面名/简述/默认提示词）",
+    "嵌套 SKILL.md（被吸收的旧技能原文）改名 doubao-original.md"
+  ]
+}

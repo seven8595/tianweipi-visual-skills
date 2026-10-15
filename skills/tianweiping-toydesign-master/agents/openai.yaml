@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平潮玩设计大师"
+  short_description: "田伟平潮玩设计大师（整合版 v2）"
+  default_prompt: "使用 $tianweiping-toydesign-master，做角色 IP / 潮玩 / 插画视觉。"

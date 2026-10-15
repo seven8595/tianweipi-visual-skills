@@ -1,0 +1,11 @@
+{
+  "1": {"class_type": "UNETLoader", "inputs": {"unet_name": "flux1-dev.safetensors", "weight_dtype": "fp8_e4m3fn"}},
+  "2": {"class_type": "DualCLIPLoader", "inputs": {"clip_name1": "clip_l.safetensors", "clip_name2": "t5xxl_fp8_e4m3fn_scaled.safetensors", "type": "flux"}},
+  "3": {"class_type": "VAELoader", "inputs": {"vae_name": "ae.safetensors"}},
+  "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 0], "text": "A small original cafe interior, a timber counter at the rear, two simple tables, neutral cream walls, soft window daylight, clear spatial relationships, no text. This is a local tool verification concept image."}},
+  "5": {"class_type": "FluxGuidance", "inputs": {"conditioning": ["4", 0], "guidance": 3.5}},
+  "6": {"class_type": "EmptyLatentImage", "inputs": {"width": 512, "height": 512, "batch_size": 1}},
+  "7": {"class_type": "KSampler", "inputs": {"model": ["1", 0], "seed": 20261013, "steps": 4, "cfg": 1, "sampler_name": "euler", "scheduler": "simple", "positive": ["5", 0], "negative": ["4", 0], "latent_image": ["6", 0], "denoise": 1}},
+  "8": {"class_type": "VAEDecode", "inputs": {"samples": ["7", 0], "vae": ["3", 0]}},
+  "9": {"class_type": "SaveImage", "inputs": {"images": ["8", 0], "filename_prefix": "tian_weiping_skill_verification"}}
+}

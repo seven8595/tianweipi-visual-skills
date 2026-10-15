@@ -1,0 +1,61 @@
+{
+  "CHARACTER_ID": "ONIGIRINIME_001",
+  "NAME": "鬼角（暂称）",
+  "ROLE": "斩鬼都市主角",
+  "STYLE_LINK": "ORIENTAL_DARK_EDITORIAL_001",
+
+  "SILHOUETTE": "纤细女性+头顶两只黑色鬼角+斜挎长刀",
+
+  "FACE": {
+    "shape": "精致半写实东方女性脸",
+    "eyes": "琥珀色锐利眼神，眼型细长",
+    "skin": "冷白，克制妆容",
+    "marking": "眼下红色纹样",
+    "lips": "唇线清晰，深红"
+  },
+
+  "HAIR": {
+    "color": "黑色，发尾微蓝",
+    "style": "长编发双麻花辫，齐刘海",
+    "ornaments": "白色花朵+金属垂饰+流苏"
+  },
+
+  "COSTUME": {
+    "top": "黑色和服，金色花卉刺绣",
+    "obi": "正红丝绸宽腰带",
+    "bottom": "高开叉，腿上黑色绑带",
+    "hands": "黑色露指皮手套",
+    "neck": "黑色金属颈环"
+  },
+
+  "TATTOO": {
+    "back": "整条背部龙纹身",
+    "arm": "鬼面图腾纹身",
+    "face": "眼下红纹"
+  },
+
+  "PROP": {
+    "weapon": "武士刀，黑色鞘，金色柄卷",
+    "hand": "红黑指甲"
+  },
+
+  "ACTING_DNA": {
+    "posture": "克制、警觉、随时可拔刀",
+    "gaze": "冷、直、少眨眼",
+    "movement": "安静时静，动时极快",
+    "emotional_restraint": "高",
+    "signature": "按刀的拇指动作"
+  },
+
+  "COLOR_PALETTE": ["#1a1a1a", "#8b0000", "#d4af37", "#f5f5f0", "#2c3e50"],
+
+  "EXPRESSION_SHEET": {
+    "NEUTRAL": "冷脸直视",
+    "DETERMINED": "眉微压，眼神更锐",
+    "ANGRY": "红纹似发烫，嘴角下压",
+    "SAD": "眼神下垂，角尖微低",
+    "SUBTLE_SMILE": "极淡"
+  },
+
+  "NEGATIVE": ["卡通大眼", "塑料皮肤", "现代枪械", "多余首饰", "现代服装"]
+}

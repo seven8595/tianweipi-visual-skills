@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "BJH_001",
+  "NAME": "奉俊昊 (Bong Joon-ho)",
+  "KEY_WORKS": ["寄生虫", "杀人回忆", "雪国列车", "母亲", "汉江怪物"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "阶级配色——富人暖亮/穷人冷暗", "accent": "气味、水渍、霉绿", "atmosphere": "楼梯、地下、半地下室"},
+    "lighting": {"key": "自然光+楼梯灯", "signature": "从窗缝/楼梯倾泻的光，半地下室的夹缝光", "motivated": "窗/路灯/客厅灯"},
+    "camera": {"lens": "广角深景", "movement": "流畅推轨、下摇上摇穿越楼梯", "framing": "阶级空间对比——俯视地下室/仰视豪宅"},
+    "space": "楼梯是核心道具，空间垂直分层"
+  },
+
+  "NARRATIVE_DNA": {"theme": "阶级、黑色幽默、类型反转", "pace": "精密控制，前半喜剧后半惊悚", "emotion": "冷峻讽刺中藏同情"},
+  "BEST_USE_CASES": ["社会题材", "阶级对比", "黑色幽默", "类型片反转", "空间叙事"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["vertical stairs composition", "light pouring through window crack", "class contrast lighting", "smooth tracking shot", "spatial layering"],
+    "avoid": ["纯粹唯美", "无目的空镜", "过度暴力", "卡通化"]
+  }
+}

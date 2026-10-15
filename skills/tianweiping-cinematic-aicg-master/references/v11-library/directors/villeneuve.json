@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "DV_001",
+  "NAME": "丹尼斯·维伦纽瓦 (Denis Villeneuve)",
+  "KEY_WORKS": ["沙丘", "银翼杀手2049", "降临", "囚徒", "焦土之城"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "冷峻去饱和", "accent": "单一暖色（橙/红/琥珀）", "atmosphere": "雾、沙尘、对称空间"},
+    "lighting": {"key": "极简布光、大面积阴影", "signature": "慢速推轨中的光位变化", "motivated": "沙漠日光/室内顶光/单色屏幕"},
+    "camera": {"lens": "中长焦压缩、对称构图", "movement": "极缓慢推轨、凝视长镜", "framing": "对称、人物居中但渺小、巨物压迫"},
+    "space": "巨物建筑、沙漠、极简室内"
+  },
+
+  "NARRATIVE_DNA": {"theme": "命运、语言、时间、巨物恐惧", "pace": "极慢，长镜头凝视", "emotion": "冷峻包裹的敬畏"},
+  "BEST_USE_CASES": ["科幻", "巨物", "沙漠/极简场景", "哲学氛围"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["symmetric composition", "slow dolly push", "vast landscape", "minimal lighting", "single warm accent on cold palette"],
+    "avoid": ["手持晃动", "快剪", "高饱和", "杂乱背景", "滑稽表情"]
+  }
+}

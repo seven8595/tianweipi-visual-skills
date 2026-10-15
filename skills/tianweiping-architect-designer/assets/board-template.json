@@ -1,0 +1,41 @@
+{
+  "mode": "research",
+  "title": "田伟平｜商业空间方法研究参考",
+  "palette": [
+    "#233F60",
+    "#D2A82F",
+    "#EEE7D9"
+  ],
+  "cards": [
+    {
+      "id": "I01",
+      "scene_id": "I01",
+      "label": "花砖与社交座位",
+      "path": "reference-images/I01.jpg"
+    },
+    {
+      "id": "I02",
+      "scene_id": "I02",
+      "label": "品牌VI整合参考",
+      "path": "reference-images/I02.jpg"
+    },
+    {
+      "id": "I03",
+      "scene_id": "I03",
+      "label": "窄店功能剖切参考",
+      "path": "reference-images/I03.jpg"
+    },
+    {
+      "id": "I04",
+      "scene_id": "I04",
+      "label": "夜景餐厅参考",
+      "path": "reference-images/I04.jpg"
+    },
+    {
+      "id": "I05",
+      "scene_id": "I05",
+      "label": "极简店铺参考",
+      "path": "reference-images/I05.jpg"
+    }
+  ]
+}

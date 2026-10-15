@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-13",
+  "sources": [
+    {
+      "id": "V01",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\d94a61594810505695b90ad83554a22d.mp4",
+      "bytes": 17780972,
+      "sha256": "ee125982554b8a1c5e944a26442486069aceac2d99e9dba4ebd72df9b76df399",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "2214",
+          "duration": "102.651995",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "23669760/789509",
+          "nb_frames": "3082",
+          "duration": "102.733008"
+        }
+      ],
+      "duration": "102.733000",
+      "probe_error": null
+    },
+    {
+      "id": "V02",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\7196ac58b3c3805c7ac578ff84a9effc.mp4",
+      "bytes": 6813981,
+      "sha256": "53be74daf9e8c55000e1468d894a1d4f43cadde31dfd5d248ce26bbc5c23440e",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "3798",
+          "duration": "176.210998",
+          "sample_rate": "44100",
+          "channels": 2
+        },
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 720,
+          "height": 1280,
+          "avg_frame_rate": "40627200/1355269",
+          "nb_frames": "5290",
+          "duration": "176.333008"
+        }
+      ],
+      "duration": "176.333000",
+      "probe_error": null
+    },
+    {
+      "id": "V03",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\09f1f50ed095c7cd80447b7d3bf5beda.mp4",
+      "bytes": 7976251,
+      "sha256": "dcb24950041fb51d3b264e9fb13afb66bd441bae4016e58c17cc23b2470f8f1d",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 720,
+          "height": 1280,
+          "avg_frame_rate": "30/1",
+          "nb_frames": "2387",
+          "duration": "79.566667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "3429",
+          "duration": "79.566508",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "duration": "79.566667",
+      "probe_error": null
+    },
+    {
+      "id": "V04",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\8ca5ab46d1f7200ccfc45699aa932dcc.mp4",
+      "bytes": 6020225,
+      "sha256": "c92dfe73cef0bcefbbd2f210863ed54dbccf1cdef50baeb8a4f504d7c5fa51b6",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 720,
+          "height": 1280,
+          "avg_frame_rate": "30/1",
+          "nb_frames": "2088",
+          "duration": "69.600000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "3000",
+          "duration": "69.600431",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "duration": "69.600431",
+      "probe_error": null
+    },
+    {
+      "id": "I01",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\f266f9650e43f26377e0e6b502f23364.jpg",
+      "bytes": 426889,
+      "sha256": "0ed97bcddb84d97bfb3c06b4a57f45ecf5fbc7c0043ec136334eae7db6957891",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "mjpeg",
+          "width": 1200,
+          "height": 1041,
+          "avg_frame_rate": "0/0",
+          "duration": "0.040000"
+        }
+      ],
+      "duration": "0.040000",
+      "probe_error": null
+    },
+    {
+      "id": "I02",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\d41a357ac4dd49abea8a8ad594f07b9a.jpg",
+      "bytes": 309176,
+      "sha256": "b45115552628c4a12741150db8b62d832224a1f16e74ff860b10da8c3cd55c87",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "mjpeg",
+          "width": 1200,
+          "height": 960,
+          "avg_frame_rate": "0/0",
+          "duration": "0.040000"
+        }
+      ],
+      "duration": "0.040000",
+      "probe_error": null
+    },
+    {
+      "id": "I03",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\55cadebff09963d671b888f0a759c250.jpg",
+      "bytes": 360878,
+      "sha256": "8563871a010dec0f7aa7173c11076aec0f49cc3f97277b4a16abc68b857e2025",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "mjpeg",
+          "width": 1195,
+          "height": 1316,
+          "avg_frame_rate": "0/0",
+          "duration": "0.040000"
+        }
+      ],
+      "duration": "0.040000",
+      "probe_error": null
+    },
+    {
+      "id": "I04",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\76be1f604089e638223ff68cdb973111.jpg",
+      "bytes": 197167,
+      "sha256": "db692a9794c450d863cb64f3bcca8e058050e2bdce5a2fa3765f023d3d9d10b2",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "mjpeg",
+          "width": 1200,
+          "height": 960,
+          "avg_frame_rate": "0/0",
+          "duration": "0.040000"
+        }
+      ],
+      "duration": "0.040000",
+      "probe_error": null
+    },
+    {
+      "id": "I05",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\temp\\RWTemp\\2026-10\\9e20f478899dc29eb19741386f9343c8\\6e9e04ec9876aaeb32bfb3fb4c081fba.jpg",
+      "bytes": 266690,
+      "sha256": "9387fc41595f794eb0e044c27cd54c374c3d8a22aeb7976f3862835e4a71ad3e",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "mjpeg",
+          "width": 848,
+          "height": 1231,
+          "avg_frame_rate": "0/0",
+          "duration": "0.040000"
+        }
+      ],
+      "duration": "0.040000",
+      "probe_error": null
+    },
+    {
+      "id": "D01",
+      "path": "C:\\Users\\seven\\.workbuddy\\skills\\ai-visual-technique-kit\\SKILL.md",
+      "sha256": "e8e7fb714a39afb26a50f3722a2fc45bac73ca1db99984b02bc8ab23c96c76bd",
+      "status": "document_read"
+    },
+    {
+      "id": "D02",
+      "path": "C:\\Users\\seven\\.workbuddy\\skills\\ai-visual-technique-kit\\references\\喂食版-对话AI注入.md",
+      "sha256": "7be86eee43548ecc4c39b91f1f1dba243cce4e043c86a70cba5f6f108bcf42ec",
+      "status": "document_read"
+    },
+    {
+      "id": "D03",
+      "path": "F:\\ai智能体田伟平总监水平自动工作流\\视觉总监_综合系统提示词_完整版.md",
+      "sha256": "fd69b38c855138f2926696debc7eca59bd42d476c3f59f8169a180638117dec1",
+      "status": "document_read"
+    },
+    {
+      "id": "S01",
+      "path": "C:\\Users\\seven\\WorkBuddy\\2026-09-29-03-34-46\\tools\\_probe_out\\9fa82201c543a704b2924855098a6f5a_sheet.jpg",
+      "sha256": "aa2cd11b2ff3b261307ba332b01e88cfcd427630db7912518fb7effbe194fdef",
+      "status": "sheet_viewed"
+    }
+  ],
+  "video_sample_frames": 143,
+  "audio_listened": false,
+  "real_time_playback": false,
+  "original_workbuddy_12_videos_and_3_images": "not directly inspected; descriptions inherited as unverified reference methods"
+}

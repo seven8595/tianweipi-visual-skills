@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平设计师提示词对齐"
+  short_description: "田伟平专属设计任务需求对齐技能 —— 全库第 0 步，内置「四句 AI 万能指令公式」（角色定位+任务目标+约束条件+输出要求）与设计总监身份卡"
+  default_prompt: "使用 $tianweiping-prompt-alignment，先把这次设计任务的 brief 按四句公式补全，再动手。"

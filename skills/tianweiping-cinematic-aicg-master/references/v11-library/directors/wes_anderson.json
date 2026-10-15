@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "WA_001",
+  "NAME": "韦斯·安德森 (Wes Anderson)",
+  "KEY_WORKS": ["布达佩斯大饭店", "月升王国", "了不起的狐狸爸爸", "法兰西特派", "天才一族"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "马卡龙低饱和——粉/黄/紫/薄荷绿", "accent": "复古配色块", "atmosphere": "舞台感、平面化、玩具感"},
+    "lighting": {"key": "棚拍平光", "signature": "均匀明亮，无强阴影，像绘本", "motivated": "顶灯/均匀布光"},
+    "camera": {"lens": "广角对称", "movement": "固定机位+硬切，缓慢推轨", "framing": "严格居中对称、俯视、正面构图"},
+    "design": "平面化布景、服饰统一色块、道具玩具化"
+  },
+
+  "NARRATIVE_DNA": {"theme": "怪咖家族、怀旧、童话式悲剧", "pace": "节奏精确如钟表", "emotion": "冷静叙述下的温柔忧伤"},
+  "BEST_USE_CASES": ["广告", "复古", "玩具感", "群像", "平面设计风MV"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["perfect center symmetry", "flat pastel color", "frontal framing", "static camera", "stylized flat set design", "quirky character costume"],
+    "avoid": ["手持晃动", "暗调写实", "雨夜霓虹", "柔焦", "自然光随意感"]
+  }
+}

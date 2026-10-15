@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平总监审核标准"
+  short_description: "田伟平视觉设计总监审核标准（整合版）"
+  default_prompt: "使用 $tianweiping-director-review，按 12 维 checklist 审这一稿并给出 SMART REPAIR。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平设计总监总纲"
+  short_description: "田伟平设计总监大师级别 · 总纲层（库入口）"
+  default_prompt: "使用 $tianweiping-design-director-master，判断这个视觉任务该走哪个分域、用哪套标准。"

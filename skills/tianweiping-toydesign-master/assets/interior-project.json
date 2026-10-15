@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "project_id": "example-interior-preservation-handoff",
+  "kind": "image",
+  "width": 1080,
+  "height": 1440,
+  "text_required": false,
+  "audio_required": false,
+  "characters": [],
+  "assets": [
+    {"id": "R_STRUCTURE", "path": "01_input/structure-reference.png"},
+    {"id": "R_MATERIAL", "path": "01_input/material-reference.png"},
+    {"id": "R_STYLE", "path": "01_input/style-reference.png"}
+  ],
+  "direction": {
+    "task": "interior",
+    "purpose": "示例室内视觉交接，优先保留参考空间关系",
+    "audience": "示例项目审阅者",
+    "message": "用材质与光线表达安静空间，不自行改变结构",
+    "facts": ["此文件为交接格式示例，尚未收到实际CAD和参考图"],
+    "assumptions": ["3:4画幅为示例选择", "具体窗位、尺寸、材质和光线须读取真实资料后填写"],
+    "preserve": ["已认可构图与产品/空间事实"],
+    "structural_changes_allowed": false,
+    "constraints": [
+      {"id": "LOCK_LAYOUT", "source_asset_id": "R_STRUCTURE", "instruction": "保留结构参考中的可见窗门、布局与物体相对位置，不编造未提供尺寸"}
+    ],
+    "deliverables": [
+      {"id": "MAIN", "item_id": "I001", "purpose": "一张主空间图；是否扩展日夜或多角度由当前用途决定"}
+    ]
+  },
+  "capabilities": {
+    "entry": "本次实际入口待填写",
+    "model": "待核验",
+    "status": "unknown",
+    "modes": [],
+    "parameters": {}
+  },
+  "items": [
+    {
+      "id": "I001",
+      "prompt": "在结构参考基础上调整材质与光线，分别说明三张参考的作用，保留可见几何和布局。",
+      "scene": {
+        "subject": "结构参考中的室内空间",
+        "environment": "以实际可见结构为依据，未提供部分不自行补成事实",
+        "composition": "保留已认可机位与布局，必要时先做构图预览",
+        "lighting": "根据真实窗向和灯具资料决定光向",
+        "style": "从风格参考提取配色、氛围和细节密度，不复制专属造型"
+      },
+      "characters": [],
+      "references": ["R_STRUCTURE", "R_MATERIAL", "R_STYLE"],
+      "reference_roles": [
+        {"asset_id": "R_STRUCTURE", "role": "structure"},
+        {"asset_id": "R_MATERIAL", "role": "material"},
+        {"asset_id": "R_STYLE", "role": "style"}
+      ],
+      "constraint_ids": ["LOCK_LAYOUT"],
+      "planned_changes": [{"category": "material", "target": "按真实样块确定表面材质，不改物体位置"}],
+      "keep": ["可见结构与相对位置"],
+      "generation": {"mode": "reference_image", "parameters": {}},
+      "repair_history": [],
+      "output_asset_id": null,
+      "reviews": [],
+      "design_reviews": [
+        {"dimension": "concept", "result": "unknown"},
+        {"dimension": "layout", "result": "unknown"},
+        {"dimension": "color", "result": "unknown"},
+        {"dimension": "typography", "result": "na", "reason": "本示例规划为无字图；若加入文字须重新检查"},
+        {"dimension": "negative_space", "result": "unknown"},
+        {"dimension": "material", "result": "unknown"},
+        {"dimension": "perspective", "result": "unknown"},
+        {"dimension": "lighting", "result": "unknown"},
+        {"dimension": "series_consistency", "result": "na", "reason": "本示例只含一张图；扩展系列后须重新检查"},
+        {"dimension": "finish", "result": "unknown"},
+        {"dimension": "information", "result": "unknown"},
+        {"dimension": "cultural_context", "result": "unknown"}
+      ]
+    }
+  ],
+  "budget": {
+    "currency": "CNY",
+    "limit": "0",
+    "spent": "0",
+    "planned_new_calls": 0,
+    "max_new_calls": 0,
+    "estimated_next_cost": "0"
+  }
+}

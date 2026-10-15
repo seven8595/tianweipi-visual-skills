@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "CN_001",
+  "NAME": "克里斯托弗·诺兰 (Christopher Nolan)",
+  "KEY_WORKS": ["盗梦空间", "星际穿越", "蝙蝠侠黑暗骑士", "奥本海默", "敦刻尔克"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "去饱和冷色调", "accent": "单一高饱和色点（橙色/红色）", "atmosphere": "巨大空旷空间"},
+    "lighting": {"key": "自然光+实用光源", "signature": "IMAX实拍光、曝光层次丰富", "motivated": "火/灯/窗/屏幕"},
+    "camera": {"lens": "IMAC 65mm大画幅，广角", "movement": "实拍爆炸、交叉剪辑、时间线切换", "framing": "人物在巨物前渺小"},
+    "structure": "时间非线性、交叉剪辑、声画错位"
+  },
+
+  "NARRATIVE_DNA": {"theme": "时间解构、高概念、技术奇观", "pace": "精密时钟式节奏", "emotion": "智力张力包裹情感"},
+  "BEST_USE_CASES": ["科幻", "悬疑", "大场面", "时间错位叙事"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["practical explosion light", "vast empty space", "desaturated palette", "single accent color", "wide shot small character"],
+    "avoid": ["高饱和卡通", "快速炫技剪辑", "室内对话戏", "柔焦"]
+  }
+}

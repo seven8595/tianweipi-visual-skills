@@ -1,0 +1,24 @@
+{
+  "skill": "tianweiping-visual-director",
+  "display_name_cn": "田伟平视觉设计ai智能体自动化生图总监水平skill",
+  "source": "doubao-user-skills",
+  "source_root": "C:/Users/seven/AppData/Local/Doubao/User Data/Default/.doubao/agent_mode/workspace/.user_skills",
+  "source_dir": "田伟平视觉设计ai智能体自动化生图总监水平skill",
+  "source_version": "4.1.0",
+  "layer": "分域 · 出图生产",
+  "migrated_at": "2026-10-15",
+  "source_body_sha256_16": "abfde78498c2b908",
+  "migrated_body_sha256_16": "abfde78498c2b908",
+  "body_byte_identical": true,
+  "source_files": 43,
+  "source_bytes": 1902548,
+  "migrated_files": 44,
+  "migrated_bytes": 1902073,
+  "changes": [
+    "frontmatter.name: 中文目录名 -> ASCII slug（Codex 校验器要求 ^[a-z0-9-]+$）",
+    "frontmatter: 原 slug/library/layer/version 移入 metadata（校验器仅允许 name/description/license/allowed-tools/metadata）",
+    "frontmatter.description: 压到 1024 字符内；尖括号 > 改为全角；引号改为「」",
+    "新增 agents/openai.yaml（界面名/简述/默认提示词）",
+    "嵌套 SKILL.md（被吸收的旧技能原文）改名 doubao-original.md"
+  ]
+}

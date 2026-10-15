@@ -1,0 +1,56 @@
+{
+  "CHARACTER_ID": "SANGUO_LIU_BEI_001",
+  "NAME": "刘备",
+  "ROLE": "三国打工人主角·黄晓明版",
+  "STYLE_LINK": "SANGUO_98_REALISTIC_001",
+  "PROJECT": "三国打工人（红果竖屏漫剧）",
+  "CONFIRMATION": "USER_CONFIRMED_2026_09",
+
+  "SILHOUETTE": "中年男性，挺拔俊朗，玉冠束发，米白汉服",
+
+  "FACE": {
+    "shape": "英俊棱角脸，帅但写实",
+    "eyes": "温和坚定",
+    "skin": "自然肤色，有真实毛孔纹理",
+    "beard": "黑色长须",
+    "lips": "自然唇色"
+  },
+
+  "HAIR": {
+    "color": "黑色",
+    "style": "束发+玉冠",
+    "ornaments": "白玉发冠"
+  },
+
+  "COSTUME": {
+    "top": "米白色汉服，有暗纹刺绣",
+    "belt": "朴素布腰带",
+    "bottom": "同色系汉服下摆",
+    "shoes": "草鞋（卖草鞋场景）"
+  },
+
+  "PROP": {
+    "signature": "草鞋（开场卖草鞋）",
+    "hand": "自然握持"
+  },
+
+  "ACTING_DNA": {
+    "posture": "仁厚但不懦弱，落魄但不卑",
+    "gaze": "温和带光",
+    "movement": "稳",
+    "emotional_restraint": "中高",
+    "signature": "卖草鞋时的坦然"
+  },
+
+  "COLOR_PALETTE": ["#f5efe0", "#2b2b2b", "#c9a86a", "#8b7355", "#e8d8b8"],
+
+  "EXPRESSION_SHEET": {
+    "NEUTRAL": "温和平视",
+    "DETERMINED": "眼神坚定，眉微压",
+    "SAD": "垂目",
+    "JOYFUL": "舒展微笑",
+    "SERIOUS": "正色"
+  },
+
+  "NEGATIVE": ["光滑美颜脸", "现代服装", "塑料质感", "卡通大眼", "鲜艳高饱和"]
+}

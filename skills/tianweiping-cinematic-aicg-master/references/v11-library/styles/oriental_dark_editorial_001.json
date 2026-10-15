@@ -1,0 +1,59 @@
+{
+  "STYLE_ID": "ORIENTAL_DARK_EDITORIAL_001",
+  "STYLE_NAME": "东方暗黑时尚编辑风",
+  "SOURCE": "USER_REFERENCE",
+  "CONFIDENCE": "CONFIRMED_REFERENCE",
+  "VERSION": "V001",
+
+  "COLOR_DNA": {
+    "primary": "BLACK",
+    "accent": ["CRIMSON_RED", "SAFFRON_GOLDEN_YELLOW"],
+    "supporting": ["IVORY", "METALLIC_SILVER", "DEEP_BLUE"],
+    "rule": "HIGH SATURATION + HIGH CONTRAST + LIMITED PALETTE",
+    "background": "SOLID RED / SOLID YELLOW / BLACK / DEEP CRIMSON"
+  },
+
+  "CHARACTER_DNA": {
+    "type": "年轻成年女性",
+    "proportions": "纤细时装化",
+    "face": "精致半写实，锐利眼神，克制妆容",
+    "hair": "黑/黑蓝",
+    "ornaments": "东方发饰+金属耳饰+颈环",
+    "symbols": "纹身/图腾",
+    "nails": "红黑",
+    "iconic_silhouette": true
+  },
+
+  "FASHION_DNA": {
+    "elements": ["BLACK_SATIN", "LACQUER", "LEATHER", "EMBROIDERY", "RED_OBI", "FLORAL", "STREETWEAR_LAYERING", "METAL"],
+    "principle": "MATERIAL CONTRAST"
+  },
+
+  "COMPOSITION_DNA": {
+    "orientation": "PORTRAIT优先",
+    "shot_size": ["MCC", "CU", "3/4_PORTRAIT"],
+    "character_ratio": "60-85%",
+    "principles": ["ASYMMETRY", "NEGATIVE_SPACE", "STRONG_SILHOUETTE", "FOREGROUND_OCCLUSION"]
+  },
+
+  "VISUAL_HIERARCHY": ["FACE", "EYES", "PROP", "COSTUME", "ACCESSORY", "BACKGROUND"],
+
+  "LIGHT_DNA": {
+    "setup": "EDITORIAL_STUDIO + CINEMATIC_ACCENT",
+    "rules": ["CLEAR_FACE_LIGHT", "CONTROLLED_SPECULAR", "DEEP_CLEAN_SHADOWS", "MATERIAL_SEPARATION", "HAIR_RIM_LIGHT"]
+  },
+
+  "STYLE_MIX": {
+    "PRIMARY": "ANIME_SEMI_REALISM",
+    "SECONDARY": "EDITORIAL_FASHION",
+    "ACCENT": "GRAPHIC_POSTER",
+    "render": "ILLUSTRATION × PHOTOGRAPHY"
+  },
+
+  "KNOWN_FAILURES": [
+    "走成写实电影场景风→背景抢主体",
+    "用glow/reflection触发全息UI杂讯"
+  ],
+
+  "BEST_USE_CASES": ["角色设定图", "时尚大片", "海报", "漫剧立绘"]
+}

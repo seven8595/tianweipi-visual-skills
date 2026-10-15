@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "KLUBSHAN_001",
+  "NAME": "雷德利·斯科特 (Ridley Scott)",
+  "KEY_WORKS": ["异形1979", "银翼杀手1982", "角斗士2000", "普罗米修斯2012"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "深蓝/蓝橙对比", "accent": "火光橙黄", "atmosphere": "雾雨尘，永远潮湿"},
+    "lighting": {"key": "低调布光，大面积阴影", "motivated": "霓虹/屏幕/火光", "rim": "人物轮廓光"},
+    "camera": {"lens": "广角深景", "movement": "缓慢推轨、凝视", "framing": "人物渺小，环境巨大"},
+    "set": {"design": "巨构+垃圾场，高科技低生活", "texture": "潮湿反光金属水泥管道"}
+  },
+
+  "NARRATIVE_DNA": {"theme": "孤独、神与人、造物者与被造物", "pace": "慢，重视氛围", "emotion": "克制的存在主义焦虑"},
+  "BEST_USE_CASES": ["赛博朋克", "科幻", "雨夜都市", "氛围片"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["wet pavement reflection", "haze fog", "neon practical light", "wide shot small character", "deep shadows"],
+    "avoid": ["明亮晴天", "干净整洁场景", "快剪炫技", "高饱和卡通色"]
+  }
+}

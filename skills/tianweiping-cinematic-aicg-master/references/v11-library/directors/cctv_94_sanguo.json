@@ -1,0 +1,33 @@
+{
+  "DIRECTOR_ID": "CCTV_94_SANGUO",
+  "DIRECTOR_NAME": "94版央视《三国演义》电视剧质感",
+  "SOURCE": "SANGUO_DRAMA_PROJECT_2026",
+  "CONFIDENCE": "CONFIRMED_BY_USER",
+  "PROJECT": "三国打工人（红果竖屏漫剧）",
+
+  "SIGNATURE_LOOK": "真实演员脸+毛孔皱纹+旧铠甲锈迹+褪色服装+胶片颗粒+阴天自然光",
+
+  "FORMULA": "Screenshot from 1994 TV drama Three Kingdoms + photorealistic live-action still + real actor face with detailed skin texture + weathered armor + grainy film texture + looks like a real TV drama screenshot not AI generated",
+
+  "MIX_RECIPE": {
+    "PRIMARY": "CCTV_1994_TV_DRAMA_STILL（98版剧照）",
+    "SECONDARY": "LIVE_ACTION_HISTORICAL（实拍历史剧）",
+    "ACCENT": "FILM_GRAIN_16MM（16mm胶片颗粒）"
+  },
+
+  "LIGHT_RULES": {
+    "day": "阴天自然光，压饱和度",
+    "sunset": "黄金小时暖光（桃园场景）",
+    "night": "篝火/火把暖光（军营场景）",
+    "forbidden": ["棚拍柔光箱", "高光塑料感", "霓虹", "赛博光效"]
+  },
+
+  "CAMERA_RULES": {
+    "depth": "浅景深，电影剧照感",
+    "grain": "16mm胶片颗粒",
+    "frame": "9:16竖屏关键帧"
+  },
+
+  "NEGATIVE": ["光滑美颜", "崭新铠甲", "鲜艳高饱和", "CG塑料", "Q版", "卡通"]
+
+}

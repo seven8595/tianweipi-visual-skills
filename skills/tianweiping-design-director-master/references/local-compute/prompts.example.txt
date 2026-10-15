@@ -1,0 +1,19 @@
+# prompts.txt 模板
+# 用法：复制成 prompts.txt，每行一条提示词，空行和 # 开头的行会被忽略
+# 跑法：run-h3-batch.ps1 -PromptsFile <这个文件> -DurationSec 5 -FirstFrame <首帧图>
+#
+# 提示词建议：主体 + 动作 + 环境 + 镜头/风格 + 情绪
+# 单条不要超过 200 字符，H3 的 Qwen3VL 编码器吃长 prompt 会慢
+# 首帧图决定长相和构图，prompt 主要控制运动和氛围
+
+# --- 示例：都市霓虹风 ---
+a young woman walking slowly through rain-soaked neon street, reflections on wet asphalt, slow motion, cinematic teal and orange lighting
+
+# --- 示例：赛博朋克 ---
+a lone detective standing on rooftop overlooking a megacity at night, holographic billboards flickering, wind blowing trench coat, wide shot
+
+# --- 示例：治愈 ---
+a small cat curled up on a sunlit windowsill, dust motes floating in golden light, gentle slow push-in
+
+# --- 示例：产品感 ---
+a glass perfume bottle rotating on a marble pedestal, soft studio light, water droplets on surface, macro slow pan

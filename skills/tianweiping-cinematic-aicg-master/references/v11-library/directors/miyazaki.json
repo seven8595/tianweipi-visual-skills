@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "GH_001",
+  "NAME": "宫崎骏 (Hayao Miyazaki)",
+  "KEY_WORKS": ["千与千寻", "龙猫", "幽灵公主", "哈尔的移动城堡", "风之谷"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "通透自然色", "accent": "天空蓝/草木绿", "atmosphere": "风、云、水波、阳光穿过树叶"},
+    "lighting": {"key": "自然光", "signature": "丁达尔效应、空气感、手绘笔触", "motivated": "太阳/月光/窗光"},
+    "camera": {"lens": "流畅横移、环境长镜", "movement": "跟随人物奔跑、缓慢平移", "framing": "人物与自然比例和谐"},
+    "design": "手绘质感、生活细节丰富、温柔怪物"
+  },
+
+  "NARRATIVE_DNA": {"theme": "成长、自然、善意、勇气", "pace": "呼吸感、留白", "emotion": "治愈与轻微忧伤"},
+  "BEST_USE_CASES": ["动画", "治愈", "奇幻", "自然场景"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["hand-painted texture", "natural light through leaves", "hair and clothes moving in wind", "wide environmental shot", "soft color palette"],
+    "avoid": ["赛博朋克霓虹", "暗黑色调", "快剪", "暴力", "塑料3D感"]
+  }
+}

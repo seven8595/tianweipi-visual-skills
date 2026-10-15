@@ -1,0 +1,19 @@
+{
+  "title": "Local cafe proxy demo — not reconstructed from attachments",
+  "units": "m",
+  "assumptions": ["All dimensions are fictional demonstration data", "Furniture is represented by simple bounding boxes", "Roof intentionally omitted"],
+  "floor": {"width": 8, "depth": 10, "thickness": 0.12},
+  "walls": [
+    {"id": "Front", "start": [0.1, 0.1], "end": [7.9, 0.1], "thickness": 0.2, "height": 2.8, "openings": [{"offset": 3.3, "width": 1.2, "bottom": 0, "height": 2.1}]},
+    {"id": "Back", "start": [0.1, 9.9], "end": [7.9, 9.9], "thickness": 0.2, "height": 2.8, "openings": []},
+    {"id": "Left", "start": [0.1, 0.1], "end": [0.1, 9.9], "thickness": 0.2, "height": 2.8, "openings": [{"offset": 2, "width": 2.5, "bottom": 0.9, "height": 1.4}]},
+    {"id": "Right", "start": [7.9, 0.1], "end": [7.9, 9.9], "thickness": 0.2, "height": 2.8, "openings": []}
+  ],
+  "furniture": [
+    {"id": "Counter", "center": [4, 7.4, 0.55], "size": [5, 0.9, 1.1]},
+    {"id": "TableA", "center": [2, 3, 0.4], "size": [1.2, 0.8, 0.8]},
+    {"id": "TableB", "center": [5.5, 3, 0.4], "size": [1.2, 0.8, 0.8]},
+    {"id": "Bench", "center": [6.8, 5.3, 0.45], "size": [0.8, 2.5, 0.9]}
+  ],
+  "cutaway_walls": ["Front", "Right"]
+}

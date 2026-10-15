@@ -1,0 +1,55 @@
+{
+  "CHARACTER_ID": "SANGUO_ZHANG_FEI_001",
+  "NAME": "张飞",
+  "ROLE": "三国打工人配角·李靖飞98版",
+  "STYLE_LINK": "SANGUO_98_REALISTIC_001",
+  "PROJECT": "三国打工人（红果竖屏漫剧）",
+  "CONFIRMATION": "USER_CONFIRMED_2026_09",
+
+  "SILHOUETTE": "虎背熊腰壮汉，豹头环眼，络腮胡，黑甲红衬",
+
+  "FACE": {
+    "shape": "宽大粗犷，豹头环眼",
+    "eyes": "环眼，瞪人时有威",
+    "skin": "风吹日晒粗糙皮肤，毛孔明显",
+    "beard": "浓密黑色络腮胡+乱发",
+    "lips": "厚实"
+  },
+
+  "HAIR": {
+    "color": "黑色",
+    "style": "乱发不拘",
+    "ornaments": "无"
+  },
+
+  "COSTUME": {
+    "top": "黑色旧皮革甲",
+    "inner": "红色粗布衣",
+    "belt": "粗布腰带",
+    "shoes": "旧布靴"
+  },
+
+  "PROP": {
+    "signature": "肉铺斩刀（开场卖肉）",
+    "hand": "粗大有力，有老茧"
+  },
+
+  "ACTING_DNA": {
+    "posture": "豪迈张扬，声如洪钟",
+    "gaze": "瞪人时威猛，平时粗中有细",
+    "movement": "大开大合",
+    "emotional_restraint": "低",
+    "signature": "肉铺怒吼/拍案"
+  },
+
+  "COLOR_PALETTE": ["#1a1a1a", "#8b2b2b", "#6b4a2b", "#4a3b2b", "#2b2b2b"],
+
+  "EXPRESSION_SHEET": {
+    "NEUTRAL": "粗豪",
+    "ANGRY": "环眼怒瞪，怒吼",
+    "JOYFUL": "咧嘴大笑",
+    "SERIOUS": "虎目凝神"
+  },
+
+  "NEGATIVE": ["卡通Q版", "光滑脸", "崭新铠甲", "鲜艳高饱和", "可爱化"]
+}

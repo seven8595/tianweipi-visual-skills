@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "project_id": "example-original-character-video",
+  "kind": "video",
+  "width": 1080,
+  "height": 1920,
+  "fps": "24",
+  "target_frames": 276,
+  "text_required": true,
+  "audio_required": true,
+  "characters": [
+    {
+      "id": "C001",
+      "anchors": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ]
+    }
+  ],
+  "assets": [],
+  "items": [
+    {
+      "id": "S001",
+      "frames": 96,
+      "overlap_previous_frames": 0,
+      "characters": [
+        "C001"
+      ],
+      "references": [],
+      "keep": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ],
+      "prompt": "原创圆耳角色戴蓝围巾，米白毛色。中景固定机位，角色站在窗边，抬头看见灯光亮起，右侧柔光。",
+      "output_asset_id": null,
+      "reviews": [],
+      "scene": {
+        "subject": "原创圆耳角色，米白毛色，戴蓝围巾",
+        "action": "站在窗边，抬头看灯光亮起后停顿",
+        "environment": "安静房间的窗边",
+        "composition": "中景，主体在画面左侧",
+        "lighting": "右侧柔光",
+        "style": "柔和绘本插画"
+      },
+      "reference_roles": [],
+      "generation": {
+        "mode": "text_to_video",
+        "parameters": {}
+      },
+      "repair_history": [],
+      "camera": {
+        "mode": "fixed",
+        "movement": "none"
+      },
+      "trim_in_frame": 0,
+      "exact_output_frames": false
+    },
+    {
+      "id": "S002",
+      "frames": 96,
+      "overlap_previous_frames": 12,
+      "characters": [
+        "C001"
+      ],
+      "references": [],
+      "keep": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ],
+      "prompt": "同一角色的近景，保留圆耳、蓝围巾和米白毛色。轻轻伸手靠近窗沿，再停顿，机位固定，右侧柔光。",
+      "output_asset_id": null,
+      "reviews": [],
+      "scene": {
+        "subject": "同一圆耳角色，米白毛色，蓝围巾",
+        "action": "伸手靠近窗沿，再停顿",
+        "environment": "同一房间的窗边",
+        "composition": "近景，手部与窗沿关系清楚",
+        "lighting": "同一右侧柔光",
+        "style": "沿用同一绘本画风"
+      },
+      "reference_roles": [],
+      "generation": {
+        "mode": "text_to_video",
+        "parameters": {}
+      },
+      "repair_history": [],
+      "camera": {
+        "mode": "fixed",
+        "movement": "none"
+      },
+      "trim_in_frame": 0,
+      "exact_output_frames": false
+    },
+    {
+      "id": "S003",
+      "frames": 96,
+      "overlap_previous_frames": 0,
+      "characters": [
+        "C001"
+      ],
+      "references": [],
+      "keep": [
+        "圆耳",
+        "蓝围巾",
+        "米白毛色"
+      ],
+      "prompt": "同一角色的面部近景，保留圆耳、蓝围巾和米白毛色。看向窗外后轻轻微笑，动作收稳，右侧柔光。",
+      "output_asset_id": null,
+      "reviews": [],
+      "scene": {
+        "subject": "同一圆耳角色，米白毛色，蓝围巾",
+        "action": "看向窗外，轻轻微笑后收稳",
+        "environment": "同一窗边",
+        "composition": "面部近景",
+        "lighting": "同一右侧柔光",
+        "style": "沿用同一绘本画风"
+      },
+      "reference_roles": [],
+      "generation": {
+        "mode": "text_to_video",
+        "parameters": {}
+      },
+      "repair_history": [],
+      "camera": {
+        "mode": "fixed",
+        "movement": "none"
+      },
+      "trim_in_frame": 0,
+      "exact_output_frames": false
+    }
+  ],
+  "subtitles": [
+    {
+      "start_frame": 12,
+      "end_frame": 60,
+      "text": "灯又亮了",
+      "track": "main"
+    },
+    {
+      "start_frame": 192,
+      "end_frame": 252,
+      "text": "我在这里",
+      "track": "main"
+    }
+  ],
+  "subtitle_max_chars": 12,
+  "subtitle_max_cps": 6,
+  "budget": {
+    "currency": "CNY",
+    "limit": "20.00",
+    "spent": "0.00",
+    "planned_new_calls": 3,
+    "max_new_calls": 3,
+    "estimated_next_cost": null
+  },
+  "capabilities": {
+    "entry": "本次实际入口待填写",
+    "model": "待核验",
+    "status": "unknown",
+    "modes": [],
+    "parameters": {}
+  }
+}

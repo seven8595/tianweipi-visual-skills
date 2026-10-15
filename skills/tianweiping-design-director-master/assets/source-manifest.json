@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "id": "V03",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\09f1f50ed095c7cd80447b7d3bf5beda.mp4",
+      "bytes": 7976251,
+      "sha256": "dcb24950041fb51d3b264e9fb13afb66bd441bae4016e58c17cc23b2470f8f1d",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 720,
+          "height": 1280,
+          "avg_frame_rate": "30/1",
+          "nb_frames": "2387",
+          "duration": "79.566667"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "3429",
+          "duration": "79.566508",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "duration": "79.566667",
+      "probe_error": null
+    },
+    {
+      "id": "V04",
+      "path": "C:\\Users\\seven\\Documents\\xwechat_files\\wxid_rmxwarko8f4421_6ac2\\msg\\video\\2026-10\\8ca5ab46d1f7200ccfc45699aa932dcc.mp4",
+      "bytes": 6020225,
+      "sha256": "c92dfe73cef0bcefbbd2f210863ed54dbccf1cdef50baeb8a4f504d7c5fa51b6",
+      "probe_status": "pass",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 720,
+          "height": 1280,
+          "avg_frame_rate": "30/1",
+          "nb_frames": "2088",
+          "duration": "69.600000"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "nb_frames": "3000",
+          "duration": "69.600431",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "duration": "69.600431",
+      "probe_error": null
+    }
+  ],
+  "audio_listened": false
+}

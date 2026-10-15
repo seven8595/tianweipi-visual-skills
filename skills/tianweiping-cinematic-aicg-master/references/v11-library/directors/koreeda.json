@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "HKH_001",
+  "NAME": "是枝裕和 (Hirokazu Kore-eda)",
+  "KEY_WORKS": ["小偷家族", "步履不停", "海街日记", "如父如子", "比海更深"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "自然低饱和", "accent": "木色/旧衣/夏天的绿", "atmosphere": "日常、闷热、食物蒸汽"},
+    "lighting": {"key": "自然光、窗光、午后斜射", "signature": "不打戏剧性光，像生活本身", "motivated": "窗/走廊/厨房灯"},
+    "camera": {"lens": "中焦、标准镜头", "movement": "固定机位为主，缓慢横移", "framing": "走廊构图、侧脸、门框、人物在画面边缘"},
+    "space": "窄小家居、走廊、厨房、电车、海边"
+  },
+
+  "NARRATIVE_DNA": {"theme": "家庭、血缘与选择、日常的残酷与温柔", "pace": "慢、留白、吃饭对话", "emotion": "不外露，靠细节流泪"},
+  "BEST_USE_CASES": ["文艺片", "家庭", "日常", "细腻情感", "食物/生活场景"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["natural window light", "static camera", "domestic interior", "side profile", "ordinary gesture", "soft muted color"],
+    "avoid": ["霓虹赛博", "大动作", "高饱和", "戏剧性布光", "特写脸堆砌", "手持晃动"]
+  }
+}

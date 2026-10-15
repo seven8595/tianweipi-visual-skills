@@ -1,0 +1,4 @@
+interface:
+  display_name: "田伟平自动化生图总监"
+  short_description: "田伟平视觉设计 AI 智能体 · 自动化生图总监工作流（分域层：出图生产）"
+  default_prompt: "使用 $tianweiping-visual-director，把这句话需求转成可执行的出图方案并本地出图。"

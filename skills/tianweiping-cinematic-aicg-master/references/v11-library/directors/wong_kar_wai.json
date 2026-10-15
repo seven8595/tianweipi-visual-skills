@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "WKW_001",
+  "NAME": "王家卫",
+  "KEY_WORKS": ["重庆森林", "堕落天使", "花样年华", "2046", "一代宗师"],
+
+  "VISUAL_DNA": {
+    "color": {"primary": "红绿蓝黄高饱和混合", "accent": "霓虹色", "atmosphere": "闷湿暧昧，时间缓慢"},
+    "lighting": {"key": "窗光/路灯/霓虹", "signature": "慢门拖影、手持曝光不足", "motivated": "霓虹招牌/走廊灯/窗帘缝光"},
+    "camera": {"lens": "广角近距离手持", "movement": "缓慢推、凝视、人物走过画面前", "framing": "半遮半掩、前景遮挡、门框"},
+    "blocking": {"signature": "擦肩、错过、背对、不看镜头", "space": "狭窄走廊/房间/雨夜街"}
+  },
+
+  "NARRATIVE_DNA": {"theme": "错过、时间、孤独、暧昧", "pace": "碎片化重复循环", "emotion": "未说出口的话"},
+  "BEST_USE_CASES": ["都市情感", "赛博朋克氛围", "雨夜霓虹", "MV"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["neon sign bokeh", "wet night street", "slow motion", "foreground occlusion", "red green color cast", "character walking away"],
+    "avoid": ["白天晴朗", "对称构图", "人物正对镜头说话", "干净棚拍感"]
+  }
+}

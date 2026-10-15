@@ -1,0 +1,24 @@
+{
+  "skill": "tianweiping-director-review",
+  "display_name_cn": "田伟平总监审核标准",
+  "source": "doubao-user-skills",
+  "source_root": "C:/Users/seven/AppData/Local/Doubao/User Data/Default/.doubao/agent_mode/workspace/.user_skills",
+  "source_dir": "田伟平总监审核标准",
+  "source_version": "3.0.0",
+  "layer": "审核",
+  "migrated_at": "2026-10-15",
+  "source_body_sha256_16": "127e9a205605917f",
+  "migrated_body_sha256_16": "127e9a205605917f",
+  "body_byte_identical": true,
+  "source_files": 14,
+  "source_bytes": 1612403,
+  "migrated_files": 15,
+  "migrated_bytes": 1612786,
+  "changes": [
+    "frontmatter.name: 中文目录名 -> ASCII slug（Codex 校验器要求 ^[a-z0-9-]+$）",
+    "frontmatter: 原 slug/library/layer/version 移入 metadata（校验器仅允许 name/description/license/allowed-tools/metadata）",
+    "frontmatter.description: 压到 1024 字符内；尖括号 > 改为全角；引号改为「」",
+    "新增 agents/openai.yaml（界面名/简述/默认提示词）",
+    "嵌套 SKILL.md（被吸收的旧技能原文）改名 doubao-original.md"
+  ]
+}

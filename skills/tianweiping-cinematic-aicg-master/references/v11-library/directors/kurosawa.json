@@ -1,0 +1,20 @@
+{
+  "DIRECTOR_ID": "KHS_001",
+  "NAME": "黑泽明 (Akira Kurosawa)",
+  "KEY_WORKS": ["七武士", "罗生门", "用心棒", "乱", "椿三十郎"],
+
+  "VISUAL_DNA": {
+    "color": {"early": "黑白高对比", "late": "浓烈原色红黄黑，太阳雨"},
+    "lighting": {"key": "强烈侧光/窗格投影", "motivated": "太阳/雨/灯笼/火", "signature": "太阳雨"},
+    "camera": {"lens": "中焦低机位", "movement": "静态长镜+突然切入动态", "framing": "框中框（门窗柱）", "multi_cam": "动作场面多机位"},
+    "blocking": {"signature": "人物横向移动，正对镜头压迫感", "weather": "风雨尘是叙事角色"}
+  },
+
+  "NARRATIVE_DNA": {"theme": "武士道德、群体、立场", "pace": "戏剧化慢铺垫后爆发", "emotion": "英雄主义+讽刺"},
+  "BEST_USE_CASES": ["武士/剑戟片", "历史动作", "道德困境", "群像"],
+
+  "FOR_AI_VIDEO": {
+    "must_have": ["low angle medium shot", "weather element", "frame within frame", "horizontal movement", "strong side light"],
+    "avoid": ["手持晃动", "特写脸堆砌", "现代快剪", "柔焦"]
+  }
+}
