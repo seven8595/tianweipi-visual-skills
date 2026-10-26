@@ -35,27 +35,31 @@
 python "$CODEX_HOME/skills/.system/skill-creator/scripts/quick_validate.py" skills/<skill-name>
 ```
 
-## 推送到 GitHub（未执行）
+## 仓库状态
 
-本地仓库已 `git init` 并提交，分支 `master`。**尚未创建远程仓库、尚未推送。**
+此技能库已同步到两个 GitHub 仓库：
 
-首次推送需要一次 GitHub 登录（本机没有任何 git 凭据）：
+- 公开仓库：<https://github.com/seven8595/tianweipi-visual-skills>（默认分支 `main`）
+- 私有仓库：<https://github.com/seven8595/tianweiping-visual-skills>（默认分支 `master`）
 
-```powershell
-cd F:\_codex技能导出_20261015
-.\一键推送到GitHub.ps1 -Repo tianweiping-visual-skills
-```
+本次核对时，两边 HEAD 均为 `f547b3bb4d0c87283a5423ea053b407e5d476437`，文件路径集合与全部文件 blob SHA 一致。该结论只表示当前检查到的版本内容一致。
 
-脚本会打开 GitHub 新建仓库页面，你建好仓库后回车，Git Credential Manager
-会弹出登录窗口，登录一次即可。
+## 公开发布范围
 
-> 注意：GitHub 的 `create_or_update_file` / `push_files` 接口只接受文本 `content`
-> （官方接口原文写明「Do not base64-encode it」），**二进制图片会被破坏**，
-> 所以 26 张案例图（8.49 MB）只能走 git 推送，不能走 API。
-> 这也是没有把仓库拆成「纯文本快照」的原因。
+仓库公开后，其中的技能正文、迁移原文、引用资料、配置、脚本和图片均可被任何人查看和下载。公开前请逐项确认：
 
-## 未声称完成
+- 图片、示例、角色或客户项目材料允许公开展示和再分发；
+- 文档中提及的本地路径、设备、项目名称、工作流和账号信息可公开；
+- 配置及脚本不包含凭据、个人数据或不应公开的内部操作细节。
 
-- 没有在 Codex 中实际运行过这些技能，未验证其在本机的实际行为或视觉输出质量；
-- 没有验证各技能 `scripts/` 下脚本在 Codex 环境的可执行性；
-- 没有创建 GitHub 远程仓库，没有推送（本地提交已完成）。
+目前仓库包含本机路径、项目名称/工作流信息、微信命名图片以及若干案例和参考图片。仓库内容本身不能证明这些材料的授权范围；需要素材权利人或资料负责人确认后，才能将其视为已获公开授权。公开仓库的修订提交也无法抹除既有 Git 历史或外部克隆。
+
+### GitHub 推送脚本提示
+
+`一键推送到GitHub.ps1` 面向本地仓库使用。它会在存在未提交变更时执行 `git add -A` 并尝试提交，运行前先检查工作树；不要把不准备发布的文件留在其中。
+
+## 验证状态
+
+- README 中提供了 Codex 技能快速校验命令，但仓库没有记录这些技能后来是否在 Codex 中实际运行。
+- 尚无证据确认各技能脚本在目标 Codex/Windows 环境执行通过。请先按技能逐项运行快速校验，再对会访问本地服务、上传素材或更改系统设置的脚本单独做安全审阅和受控测试。
+- 上述内容状态以本次仓库检查为准；静态浏览不等同于运行验证。
